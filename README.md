@@ -10,7 +10,6 @@ A simple and elegant desktop application built with Python and CustomTkinter to 
 ### 🎬 Demo
 
 ![Placeholder for GIF](![VdeosemttuloFeitocomoClipchamp-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a3a118c8-ee4a-4cce-b7fd-75b8df73dbc1)
-)
 
 ---
 
