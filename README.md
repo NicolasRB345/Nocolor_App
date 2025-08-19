@@ -85,5 +85,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ---
 
 <p align="center">
-  Developed with ❤️ by <a href="https://github.com/NicolasRB345">Nicolas Rocha</a>
+  Developed with ❤️ by <a href="https://github.com/NicolasRB345">NicolasRB345</a>
 </p>
