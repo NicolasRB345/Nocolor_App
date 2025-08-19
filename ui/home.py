@@ -4,6 +4,17 @@ from tkinter import filedialog
 from removing import remove_background as backend_remove
 import threading
 import queue
+import sys
+import os
+
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
 
 class Home(ctk.CTkFrame):
     def __init__(self, master, go_to_image_converted):
@@ -11,7 +22,7 @@ class Home(ctk.CTkFrame):
         self.go_to_image_converted = go_to_image_converted
         self.caminho_input = None
 
-        CAMINHO_LOYOUT = "assets/homeLoyout.png" 
+        CAMINHO_LOYOUT = resource_path("assets/homeLoyout.png") 
         image_loyout_home = Image.open(CAMINHO_LOYOUT)
 
         logo_img = ctk.CTkImage(light_image=image_loyout_home, size=(500, 600))

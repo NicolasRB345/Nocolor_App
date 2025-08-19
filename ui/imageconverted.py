@@ -3,6 +3,14 @@ from PIL import Image
 from tkinter import filedialog
 import shutil
 import os
+import sys
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 class ImageConverted(ctk.CTkFrame):
     def __init__(self, master, go_to_home):
@@ -10,7 +18,7 @@ class ImageConverted(ctk.CTkFrame):
         self.go_to_home = go_to_home
         self.processed_image_path = None
 
-        CAMINHO_LOYOUT = "assets\mainLoyout.png" 
+        CAMINHO_LOYOUT = resource_path("assets\mainLoyout.png") 
         imageLoyout = Image.open(CAMINHO_LOYOUT)
 
         logo_img = ctk.CTkImage(light_image=imageLoyout, size=(500, 600))
