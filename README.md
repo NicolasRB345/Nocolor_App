@@ -7,9 +7,7 @@ A simple and elegant desktop application built with Python and CustomTkinter to 
 
 ---
 
-### 🎬 Demo
-
-### 🎬 Application Demo
+## 🎬 Application Demo
 
 [![Nocolor App Demo](assets\VdeosemttuloFeitocomoClipchamp-ezgif.com-video-to-gif-converter.gif)](assets\VdeosemttuloFeitocomoClipchamp-ezgif.com-video-to-gif-converter.gif)
 
